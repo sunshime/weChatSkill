@@ -1,0 +1,16 @@
+<!-- 实现左右联动效果 -->
+<view class="linkage">
+	<!-- 左边菜单 -->
+	<scroll-view scroll-y scroll-with-animation scroll-top="{{scrollTops}}" class="scroll-left">
+		<view class="left-item {{curIndex===index?'active':''}}" wx:for="{{list}}" wx:key="index" data-index="{{index}}" bindtap="tabNav">{{item.name}}</view>
+	</scroll-view>
+	<!-- 右边内容 -->
+	<scroll-view scroll-y scroll-with-animation scroll-into-view="scroll-{{rtCurIndex}}" class="scroll-right" bindscroll="scrollContent">
+		<view wx:for="{{list}}" wx:key="index" id="scroll-{{index}}" class="right-item">
+			<view class="rt-title">{{item.name}}</view>
+			<view class="content">
+				<view class="ct-item" wx:for="{{item.list}}" wx:key="indexs" wx:for-item="items" wx:for-index="indexs">{{items}}</view>
+			</view>
+		</view>
+	</scroll-view>
+</view>

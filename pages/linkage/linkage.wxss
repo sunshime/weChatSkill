@@ -1,0 +1,58 @@
+/* pages/linkage/linkage.wxss */
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+.linkage {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.scroll-left {
+  width: 200rpx;
+  height: 100vh;
+  text-align: center;
+  background-color: rgb(247, 240, 230);
+}
+
+.left-item {
+  height: 50px;
+  line-height: 50px;
+  font-size: 32rpx;
+  color: #333;
+}
+
+.active {
+  background-color: rgb(238, 149, 97);
+  color: #fff;
+}
+
+.scroll-right {
+  height: 100vh;
+  background-color: rgb(247, 246, 244);
+  box-sizing: border-box;
+  padding: 0 20rpx 0 30rpx;
+}
+
+.right-item {
+  border-bottom: 1rpx solid #ccc;
+  padding: 30rpx 0;
+  color: #333;
+}
+
+.rt-title {
+  text-align: center;
+  line-height: 80rpx;
+  font-size: 36rpx;
+}
+
+.content {
+  padding: 0 10rpx 0 20rpx;
+}
+
+.ct-item {
+  font-size: 34rpx;
+  line-height: 50rpx;
+}

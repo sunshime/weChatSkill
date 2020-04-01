@@ -1,0 +1,33 @@
+.all {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+}
+
+.title {
+  line-height: 100rpx;
+  padding-left: 60rpx;
+  font-size: 46rpx;
+  color: #666;
+}
+
+.btn-content {
+  padding: 20rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn {
+  border-radius: 15rpx;
+  margin-bottom: 30rpx;
+  border: 1rpx solid #eee;
+  background-color: paleturquoise;
+  font-weight: normal;
+  font-weight: 500;
+  font-size: 40rpx;
+  color: #555;
+  width: 300rpx;
+  padding: 20rpx;
+  text-align: center;
+}
