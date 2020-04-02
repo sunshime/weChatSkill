@@ -1,7 +1,8 @@
 <view class="all">
 	<view class="title">用于实现以下效果：</view>
 	<view class="btn-content">
-		<view class="btn">左右联动</view>
-		<view class="btn">左滑删除</view>
+		<view class="btn" bindtap="linkage">左右菜单联动</view>
+		<view class="btn" bindtap="upDownLinkage">上下菜单联动</view>
+		<view class="btn" bindtap="leftSlide">左滑删除</view>
 	</view>
 </view>
