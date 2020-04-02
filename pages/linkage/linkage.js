@@ -44,7 +44,7 @@ Page({
 
     console.log(e);
 
-    let scrollTop = e.detail.scrollTop;
+    let scrollTop = e.detail.scrollTop+20;
 
     for (let i = 0; i < list.length; i++) {
       if (scrollTop > list[i].top && scrollTop < list[i].bottom) {
