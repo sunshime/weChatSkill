@@ -8,7 +8,8 @@ Page({
   data: {
     list: linkageList,
     curIndex: 0,
-    scrollLefts: 0
+    scrollLefts: 0,
+    duration:300
   },
   // 导航栏滑动
   tabNav(e) {

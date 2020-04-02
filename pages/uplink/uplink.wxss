@@ -8,7 +8,7 @@
   height: 100rpx;
   line-height: 100rpx;
   width: auto;
-  background-color: #f8f8f8;
+  background-color: #fff5f5;
 }
 
 .top-item {
