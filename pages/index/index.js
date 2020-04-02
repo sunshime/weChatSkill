@@ -20,10 +20,8 @@ Page({
   },
   // 左滑
   leftSlide() {
-    wx.showToast({
-      title: '敬请期待！',
-      icon: 'none',
-      duration: 3000
+    wx.navigateTo({
+      url: '/pages/delLeft/delLeft',
     })
   }
 })

@@ -1,0 +1,55 @@
+/* pages/delLeft/delLeft.wxss */
+.dellist {
+  width: 100%;
+  height: 100vh;
+  background-color: #f8f8f8;
+}
+
+.wrap {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20rpx;
+}
+
+.item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-left: -140rpx;
+  transform: translateX(140rpx);
+  transition: all 0.4s;
+  -webkit-transform: translateX(140rpx);
+  -webkit-transition: all 0.4s;
+  background-color: #fff;
+}
+
+image {
+  width: 200rpx;
+  height: 200rpx;
+  display: block;
+}
+
+.title {
+  font-size: 34rpx;
+  color: #333;
+}
+
+.del {
+  font-size: 34rpx;
+  color: #fff;
+  line-height: 200rpx;
+  text-align: center;
+  background-color: #F15151;
+  width: 140rpx;
+  transform: translateX(142rpx);
+  transition: all 0.4s;
+  -webkit-transform: translateX(142rpx);
+  -webkit-transition: all 0.4s;
+}
+
+.touch-move .item,
+.touch-move .del {
+  transform: translateX(0);
+  -webkit-transform: translateX(0);
+}

@@ -1,0 +1,9 @@
+<view class="dellist">
+	<view class="wrap {{item.isTouchMove?'touch-move':''}}" wx:for="{{delList}}" wx:key="index">
+		<view class="item" data-index="{{index}}" bindtouchstart="touchStart" bindtouchmove="touchMove">
+			<image src="{{item.img}}"></image>
+			<view class="title">{{item.title}}</view>
+		</view>
+		<view class="del" data-index="{{index}}" bindtap="delItem">删除</view>
+	</view>
+</view>

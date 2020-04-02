@@ -5,3 +5,6 @@
 
 ### 二、导航栏部分上下联动
 ![leftscrolldate1.gif](https://i.loli.net/2020/04/02/F2347wiXtJMTsou.gif)
+
+### 三、左滑删除
+![leftscrolldate1.gif](https://i.loli.net/2020/04/02/2EDqhVCXSb3Qgtn.gif)
