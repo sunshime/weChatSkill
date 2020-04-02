@@ -1,0 +1,8 @@
+<view class="uplink">
+	<scroll-view scroll-x scroll-with-animation scroll-left="{{scrollLefts}}" class="scroll-top" style="overflow:hidden;white-space:nowrap;">
+		<view class="top-item {{curIndex===index?'active':''}}" wx:for="{{list}}" wx:key="index" data-index="{{index}}" bindtap="tabNav">{{item.name}}</view>
+	</scroll-view>
+	<swiper class="swiper" current="{{curIndex}}" bindchange="changeScroll">
+		<swiper-item wx:for="{{list}}" wx:key="index" class="swipers-item">{{item.list}}</swiper-item>
+	</swiper>
+</view>

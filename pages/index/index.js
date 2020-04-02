@@ -14,10 +14,8 @@ Page({
   },
   // 上下菜单联动
   upDownLinkage() {
-    wx.showToast({
-      title: '敬请期待！',
-      icon: 'none',
-      duration: 3000
+    wx.navigateTo({
+      url: '/pages/uplink/uplink',
     })
   },
   // 左滑

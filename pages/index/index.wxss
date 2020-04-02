@@ -1,7 +1,7 @@
 .all {
   width: 100%;
   height: 100vh;
-  background-color: rgb(247, 244, 241);
+  /* background-color: rgb(247, 244, 241); */
 }
 
 .title {
@@ -25,7 +25,7 @@
   background-color: paleturquoise;
   font-weight: normal;
   font-weight: 500;
-  font-size: 40rpx;
+  font-size: 36rpx;
   color: #555;
   width: 300rpx;
   padding: 20rpx;
