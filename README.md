@@ -9,4 +9,7 @@
 ### 三、左滑删除
 ![leftscrolldate1.gif](https://i.loli.net/2020/04/02/2EDqhVCXSb3Qgtn.gif)
 
+### 四、canvas绘制海报并实现分享功能
+![1.png](https://i.loli.net/2020/04/09/zRUB8QYqhuLk7cP.png)
+
 #### 其它功能后续陆续增加~

@@ -23,5 +23,10 @@ Page({
     wx.navigateTo({
       url: '/pages/delLeft/delLeft',
     })
+  },
+  posterShare() {
+    wx.navigateTo({
+      url: '/pages/posterShare/posterShare',
+    })
   }
 })

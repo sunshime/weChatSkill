@@ -1,0 +1,13 @@
+<canvas canvas-id="mycanvas" class="canvas"></canvas>
+
+<view class="canvas" wx:if="{{hidden}}" bindlongtap="longTap">
+	<image src="{{url}}"></image>
+</view>
+
+<view class="dialog" wx:if="{{isShow}}">
+	<text class="top">是否保存图片分享</text>
+	<view class="bottom">
+		<text class="yes" bindtap="yes">是</text>
+		<text bindtap="no">否</text>
+	</view>
+</view>

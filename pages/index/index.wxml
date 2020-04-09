@@ -4,5 +4,6 @@
 		<view class="btn" bindtap="linkage">左右菜单联动</view>
 		<view class="btn" bindtap="upDownLinkage">导航栏上下联动</view>
 		<view class="btn" bindtap="leftSlide">左滑删除</view>
+		<view class="btn" bindtap="posterShare">canvas绘制海报并分享</view>
 	</view>
 </view>

@@ -4,7 +4,8 @@
     "pages/delLeft/delLeft",
     "pages/uplink/uplink",
     "pages/linkage/linkage",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/posterShare/posterShare"
   ],
   "window": {
     "backgroundTextStyle": "light",
