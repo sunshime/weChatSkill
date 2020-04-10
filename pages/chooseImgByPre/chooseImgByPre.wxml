@@ -1,0 +1,5 @@
+<view class="btn" bindtap="chooseImg">选择图片</view>
+
+<view class="allimg">
+	<image wx:for="{{imgs}}" wx:key="index" src="{{item}}" bindtap="previewImage"></image>
+</view>

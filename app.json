@@ -5,7 +5,8 @@
     "pages/uplink/uplink",
     "pages/linkage/linkage",
     "pages/logs/logs",
-    "pages/posterShare/posterShare"
+    "pages/posterShare/posterShare",
+    "pages/chooseImgByPre/chooseImgByPre"
   ],
   "window": {
     "backgroundTextStyle": "light",

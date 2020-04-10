@@ -12,4 +12,8 @@
 ### 四、canvas绘制海报并实现分享功能
 ![1.png](https://i.loli.net/2020/04/09/zRUB8QYqhuLk7cP.png)
 
+### 五、图片上传与预览
+![leftscrolldate11.gif](https://i.loli.net/2020/04/10/SYtns1MaRIHxhOF.gif)
+
+
 #### 其它功能后续陆续增加~

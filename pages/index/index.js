@@ -24,9 +24,16 @@ Page({
       url: '/pages/delLeft/delLeft',
     })
   },
+  // 海报
   posterShare() {
     wx.navigateTo({
       url: '/pages/posterShare/posterShare',
+    })
+  },
+  // 图片上传与预览
+  chooseImgByPre() {
+    wx.navigateTo({
+      url: '/pages/chooseImgByPre/chooseImgByPre',
     })
   }
 })

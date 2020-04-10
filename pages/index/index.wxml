@@ -5,5 +5,6 @@
 		<view class="btn" bindtap="upDownLinkage">导航栏上下联动</view>
 		<view class="btn" bindtap="leftSlide">左滑删除</view>
 		<view class="btn" bindtap="posterShare">canvas绘制海报并分享</view>
+		<view class="btn" bindtap="chooseImgByPre">图片上传与预览</view>
 	</view>
 </view>

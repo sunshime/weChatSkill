@@ -1,0 +1,37 @@
+.btn {
+  width: 200rpx;
+  height: 80rpx;
+  margin: 20rpx 0;
+  font-size: 36rpx;
+  background-color: skyblue;
+  border-radius: 15rpx;
+  border: 1rpx solid #eee;
+  color: #fff;
+  text-align: center;
+  line-height: 80rpx;
+  margin: 20rpx auto;
+}
+
+.allimg {
+  box-sizing: border-box;
+  width: 100vw;
+  /* height: 100vh; */
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 20rpx 10rpx;
+}
+
+/* 使用伪类元素占据单位，不影响页面 */
+.allimg:after {
+  content: "";
+  height: 0;
+  width: 235rpx;
+}
+
+image {
+  width: 235rpx;
+  height: 260rpx;
+  display: block;
+  margin: 8rpx 0;
+}
