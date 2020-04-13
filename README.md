@@ -15,5 +15,7 @@
 ### 五、图片上传与预览
 ![leftscrolldate11.gif](https://i.loli.net/2020/04/10/SYtns1MaRIHxhOF.gif)
 
+### 六、进度条的实现
+![leftscrolldate2.gif](https://i.loli.net/2020/04/13/Td9MRvBkFX7PLxo.gif)
 
 #### 其它功能后续陆续增加~

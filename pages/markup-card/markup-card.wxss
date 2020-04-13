@@ -1,0 +1,100 @@
+.xin{
+  padding:0 20px;
+}
+.xin .title{
+  font-size: 14px;
+  color: #444;
+}
+.xin .border{
+  height: 0;
+  border-top: 1px solid #ccc;
+  margin-top: 20px;
+  width:20%;
+}
+.xin-list{
+  width: 100%;
+  position: relative;
+}
+.xin-list .single:nth-of-type(1){
+  z-index: 10;
+}
+/* .xin-list .single:nth-of-type(2){
+  position: absolute;
+  transform: translateX(20px) scale(0.8);
+  
+  transform-origin: 100% 50% 0; 
+  top: 0;
+  z-index: -1;
+}
+.xin-list .single:nth-of-type(3){
+  position: absolute;
+  transform: translateX(40px) scale(0.6);
+  
+  transform-origin: 100% 50% 0; 
+  
+  top: 0;
+  z-index: -2;
+} 
+*/
+.xin-list .single:nth-of-type(n+4){
+  
+  transform:translateX(40px) scale(0.6);
+  transform-origin: 100% 50% 0; 
+}
+.xin-list .single{
+  transition: all 1s;
+  overflow: hidden;
+  border-radius: 1px;
+  margin-top:15px;
+  width: calc(100% - 60px);
+  height: calc(100vh - 150px - 11vh);
+  background: #fff;
+  position: absolute;
+  box-shadow: 3px 3px 10px 0px #777;
+}
+.xin-shou{
+  writing-mode: vertical-lr;
+  font-size: 15px;
+  float: left;
+  padding:10px 2px 10px 2px;
+  letter-spacing:4px;
+  margin:0 15px;
+  position: relative;
+  top: 50%;
+  max-height: 80%;
+  overflow: hidden;
+  transform: translateY(-50%);
+  border: 1px solid #999;
+}
+.xin-body{
+  text-indent: 2em;
+  letter-spacing:0.2em;
+  writing-mode:vertical-lr;
+  max-width:40vw;
+  line-height:8vw;
+  overflow: hidden;
+  float: left;
+  height: 70%;
+  vertical-align: middle;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align:justify;
+}
+.shenglue{
+  float: left;
+  height: 70%;
+  line-height:25px;
+  width: 25px;
+  text-align:justify;
+  writing-mode:vertical-lr;
+  margin-top: 23%;
+  letter-spacing:10px;
+}
+.xin-xie{
+  clear: both;
+  font-size: 12px;
+  position: absolute;
+  right: 15px;
+  bottom: 10px;
+}

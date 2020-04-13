@@ -1,0 +1,19 @@
+<!-- 此功能是复制人家做好的效果功能 https://blog.csdn.net/qq_30113287/article/details/79945751-->
+<view class="xin">
+	<view class="title">你有一封新的信件</view>
+	<view class="border"></view>
+	<view class="xin-list" bindtouchend="moveItem" bindtouchstart="moveStart">
+		<block wx:for="{{xinList}}" wx:key="key" wx:for-index="idx">
+			<view class="single" style="opacity:{{item.display}};transform: translateX({{item.slateX}}) scale({{item.scale}});z-index:{{item.zIndex}};transform-origin: 100% 50% 0;{{item.style}}">
+				<view class="xin-shou">
+					致 {{item.to}}
+				</view>
+				<view class="xin-body">
+					{{item.msg}}
+				</view>
+				<view class="shenglue">···</view>
+				<view class="xin-xie">By {{item.from}}</view>
+			</view>
+		</block>
+	</view>
+</view>

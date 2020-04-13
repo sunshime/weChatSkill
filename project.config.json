@@ -50,9 +50,10 @@
 			"current": -1,
 			"list": [
 				{
-					"id": -1,
-					"name": "pages/chooseImgByPre/chooseImgByPre",
-					"pathName": "pages/chooseImgByPre/chooseImgByPre",
+					"id": 0,
+					"name": "pages/markup-card/markup-card",
+					"pathName": "pages/markup-card/markup-card",
+					"query": "",
 					"scene": null
 				}
 			]
