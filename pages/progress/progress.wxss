@@ -1,0 +1,72 @@
+.pages{
+  padding: 60rpx 0;
+}
+.progress {
+  padding: 30rpx;
+}
+
+.styles {
+  width: 700rpx;
+  margin-bottom: 30rpx;
+}
+
+text {
+  padding-left: 30rpx;
+  font-size: 34rpx;
+  color: #333;
+  line-height: 50rpx;
+}
+
+.slider {
+  width: 700rpx;
+  margin-bottom: 30rpx;
+}
+
+.sliders {
+  margin-bottom: 30rpx;
+}
+
+.title {
+  font-size: 30rpx;
+  color: #666;
+  line-height: 30rpx;
+  padding: 30rpx;
+  /* background-color: sandybrown; */
+}
+
+/* 圆形进度条 */
+.cricle {
+  position: relative;
+  z-index: 0;
+  margin: 30rpx 20rpx;
+  width: 300rpx;
+  height: 300rpx;
+}
+
+/* 背景 */
+.canvas {
+  z-index: 1;
+  width: 300rpx;
+  height: 300rpx;
+}
+
+/* 进度条 */
+.canvas-mask {
+  z-index: 2;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 300rpx;
+  height: 300rpx;
+}
+
+/* 进度率 */
+.rate {
+  position: absolute;
+  top: 160rpx;
+  left: 20rpx;
+  width: 100%;
+  text-align: center;
+  color: #333;
+  font-size: 30rpx;
+}

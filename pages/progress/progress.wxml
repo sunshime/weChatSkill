@@ -1,0 +1,30 @@
+<view class="pages">
+	<text>一、固定值进度条</text>
+	<view class="progress">
+		<progress class="styles" percent="{{percent1}}" show-info="true" activeColor="skyblue"></progress>
+		<progress class="styles" percent="{{percent2}}" show-info="true" activeColor="pink" border-radius="100"></progress>
+		<progress class="styles" percent="{{percent3}}" stroke-width="10" show-info="true" activeColor="skyblue" border-radius="100"></progress>
+		<progress class="styles" percent="{{percent4}}" active show-info="true" activeColor="skyblue" border-radius="100"></progress>
+		<progress class="styles" percent="{{percent5}}" activeColor="skyblue" border-radius="100"></progress>
+	</view>
+
+	<text>二、可滑动进度条</text>
+	<view class="slider">
+		<view class="title">1.普通进度条</view>
+		<slider class="sliders" value="{{curvalue1}}" show-value block-size="20" bindchanging="changing"></slider>
+		<slider class="sliders" value="{{curvalue2}}" activeColor="yellowgreen" block-color="turquoise" bindchange="progressChange"></slider>
+
+		<view class="title">2.禁用进度条</view>
+		<slider disabled class="sliders" value="{{curvalue3}}"></slider>
+
+		<view class="title">3.最大/最小值进度条</view>
+		<slider class="sliders" activeColor="sandybrown" value="{{curvalue4}}" min="20" max="150" show-value block-size="20" bindchange="progressChange"></slider>
+	</view>
+
+	<text>三、圆形进度条</text>
+	<view class="cricle">
+		<canvas canvas-id="canvasCircle" class="canvas"></canvas>
+		<canvas canvas-id="canvasRing" class="canvas-mask"></canvas>
+		<view class="rate">{{step}}%</view>
+	</view>
+</view>

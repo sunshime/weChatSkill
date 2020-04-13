@@ -35,5 +35,11 @@ Page({
     wx.navigateTo({
       url: '/pages/chooseImgByPre/chooseImgByPre',
     })
-  }
+  },
+  // 进度条
+  progress() {
+    wx.navigateTo({
+      url: '/pages/progress/progress',
+    })
+  },
 })
