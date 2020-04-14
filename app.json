@@ -8,7 +8,8 @@
     "pages/logs/logs",
     "pages/posterShare/posterShare",
     "pages/chooseImgByPre/chooseImgByPre",
-    "pages/markup-card/markup-card"
+    "pages/markup-card/markup-card",
+    "pages/swiper/swiper"
   ],
   "window": {
     "backgroundTextStyle": "light",

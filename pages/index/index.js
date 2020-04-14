@@ -42,4 +42,10 @@ Page({
       url: '/pages/progress/progress',
     })
   },
+  // 轮播图
+  swiper() {
+    wx.navigateTo({
+      url: '/pages/swiper/swiper',
+    })
+  },
 })

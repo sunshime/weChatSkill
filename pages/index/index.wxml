@@ -7,5 +7,6 @@
 		<view class="btn" bindtap="posterShare">canvas绘制海报并分享</view>
 		<view class="btn" bindtap="chooseImgByPre">图片上传与预览</view>
 		<view class="btn" bindtap="progress">进度条</view>
+		<view class="btn" bindtap="swiper">轮播图</view>
 	</view>
 </view>

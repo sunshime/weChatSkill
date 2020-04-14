@@ -51,8 +51,8 @@
 			"list": [
 				{
 					"id": 0,
-					"name": "pages/markup-card/markup-card",
-					"pathName": "pages/markup-card/markup-card",
+					"name": "pages/swiper/swiper",
+					"pathName": "pages/swiper/swiper",
 					"query": "",
 					"scene": null
 				}
